@@ -1,5 +1,5 @@
 # SwipeButton
-swipe button for swift 
+# swipe button for swift 
 
 import Foundation
 import UIKit
