@@ -123,7 +123,8 @@ import UIKit
 
     override func layoutSubviews() {
         super.layoutSubviews()
-
+        
+        button.touchSize = self.frame.size
         let maxWidth: CGFloat = self.frame.width
         let maxHeight: CGFloat = self.frame.height
         if barHeight > maxHeight {
